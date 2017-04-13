@@ -1,4 +1,5 @@
 Instructions:
+- create a Firebase project and link it to this app
 - obtain a google-services.json file
 - copy it to app folder
 - build and install
