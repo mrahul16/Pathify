@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="in.maru.pathify.ui.gameplay.GameActivityFragment"
+    tools:showIn="@layout/activity_game">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1A237E"
+        android:elevation="8dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="32dp"
+        android:paddingTop="32dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/my_profile_pic"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/user"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="2dp" />
+
+        <View
+            android:id="@+id/my_progress_container"
+            android:layout_width="144dp"
+            android:layout_height="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/my_profile_pic"
+            android:background="#ddd" />
+
+
+        <View
+            android:id="@+id/my_progress"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/my_profile_pic"
+            android:background="#00C853" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/other_profile_pic"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/my_profile_pic"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/user"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="2dp" />
+
+        <View
+            android:id="@+id/other_progress_container"
+            android:layout_width="144dp"
+            android:layout_height="4dp"
+            android:layout_below="@id/my_progress_container"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@id/other_profile_pic"
+            android:background="#ddd" />
+
+
+        <View
+            android:id="@+id/other_progress"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:layout_below="@id/my_progress"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@id/other_profile_pic"
+            android:background="#00C853" />
+
+        <ImageView
+            android:id="@+id/win_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="14dp"
+            android:layout_toEndOf="@id/my_progress_container"
+            android:src="@drawable/win" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_item"
+            android:paddingBottom="12dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:text="Hello"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="4dp"
+            android:background="#3f51b5"/>
+
+        <TextView
+            android:id="@+id/num_edit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:text="7" />
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="4dp"
+            android:background="#3f51b5"/>
+
+        <TextView
+            android:id="@+id/end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_item"
+            android:paddingBottom="12dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:text="Hello"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/remaining"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/circle_remaining"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:text="7" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:id="@+id/path_words_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingBottom="12dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:background="@drawable/next_curve_border"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingBottom="12dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:background="@drawable/next_curve_border"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingBottom="12dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:background="@drawable/next_curve_border"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingBottom="12dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:background="@drawable/next_curve_border"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingBottom="12dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:background="@drawable/next_curve_border"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingBottom="12dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="12dp"
+            android:background="@drawable/next_curve_border"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
+

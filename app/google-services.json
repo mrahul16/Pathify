@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "478095724842",
+    "firebase_url": "https://pathify-66789.firebaseio.com",
+    "project_id": "pathify-66789",
+    "storage_bucket": "pathify-66789.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478095724842:android:1ab47b1ec952c9ad",
+        "android_client_info": {
+          "package_name": "in.maru.pathify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478095724842-id2m6i7guhaf7qtakbu4u4v4bqesn81p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.maru.pathify",
+            "certificate_hash": "20A916567A51D2703D18BCAC7C96FAB5F1F6C216"
+          }
+        },
+        {
+          "client_id": "478095724842-731d54vmubkoo0q2e2bqapq55nf5rb54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBswVijcHsXsekUzDYQft-CYkliePvrmac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478095724842-731d54vmubkoo0q2e2bqapq55nf5rb54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

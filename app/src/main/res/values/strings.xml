@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pathify</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu Strings -->
+    <string name="action_logout">Logout</string>
+
+    <!-- Instructions and Loading Text -->
+    <string name="progress_dialog_logging_in">Logging in…</string>
+    <string name="progress_dialog_authenticating_with_firebase">Authenticating with Firebase…</string>
+    <string name="progress_dialog_creating_user_with_firebase">Attempting to create account…</string>
+    <string name="progress_dialog_check_inbox">Please check your inbox for your password</string>
+
+    <string name="web_client_id">478095724842-731d54vmubkoo0q2e2bqapq55nf5rb54.apps.googleusercontent.com</string>
+    <string name="title_activity_game_setup">GameSetupActivity</string>
+    <string name="pathify_logo_description">Pathify logo</string>
+    <string name="powered_by_text">Powered by</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_opponent_name">Loading opponent name...</string>
+    <string name="loading_opponent_username">Loading opponent username...</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+
+</resources>
