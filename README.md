@@ -1,17 +1,17 @@
-### Instructions
-- create a Firebase project and link it to this app
-- obtain a google-services.json file
-- copy it to app folder
-- build and install
-- log in with Google accounts on the app on two devices
-- click on '+' button to host a game on one device
-- select the hosted game from the other device
-- the game contains a start word and an end word
-- user has to modify(insert, substitute or delete) one letter at a time at each step from start word to reach end word
-- number of modifications allowed is limited
-- first to find word path wins
+# Instructions
+- Create a Firebase project and link it to this app
+- Obtain a google-services.json file
+- Copy it to app folder
+- Build and install
+- Log in with Google accounts on the app on two devices
+- Click on '+' button to host a game on one device
+- Select the hosted game from the other device
+- The game contains a start word and an end word
+- User has to modify(insert, substitute or delete) one letter at a time at each step from start word to reach end word
+- Number of modifications allowed is limited
+- First to find word path wins
 
-### Screenshots
+# Screenshots
 1. Login Screen
 
 <img src="/screenshots/Screenshot1.png" alt="Login Screen" style="width: 360; height: 640;"/>
