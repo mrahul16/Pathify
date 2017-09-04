@@ -13,5 +13,5 @@ Instructions:
 
 Screenshots
 
-<img src="/screenshots/Screenshot1.png" alt="Login Screen" style="width: 360px; height: 640px;"/>
+<img src="/screenshots/Screenshot1.png" alt="Login Screen" style="width: 360; height: 640;"/>
 
