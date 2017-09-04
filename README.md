@@ -13,4 +13,4 @@ Instructions:
 
 Screenshots
 
-![Alt text](/screenshots/Screenshot1.png?raw=true "Login Screen")
+![Alt text](/screenshots/Screenshot1.png?raw=true =360x640 "Login Screen")
