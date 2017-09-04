@@ -10,3 +10,7 @@ Instructions:
 - user has to modify(insert, substitute or delete) one letter at a time at each step from start word to reach end word
 - number of modifications allowed is limited
 - first to find word path wins
+
+Screenshots
+
+![Alt text](/screenshots/Screenshot1.png?raw=true "Login Screen")
