@@ -1,4 +1,4 @@
-Instructions:
+### Instructions
 - create a Firebase project and link it to this app
 - obtain a google-services.json file
 - copy it to app folder
@@ -11,7 +11,24 @@ Instructions:
 - number of modifications allowed is limited
 - first to find word path wins
 
-Screenshots
+### Screenshots
+1. Login Screen
 
 <img src="/screenshots/Screenshot1.png" alt="Login Screen" style="width: 360; height: 640;"/>
+
+2. Login Screen
+
+<img src="/screenshots/Screenshot2.png" alt="Lobby" style="width: 360; height: 640;"/>
+
+3. Login Screen
+
+<img src="/screenshots/Screenshot3.png" alt="Waiting for other player" style="width: 360; height: 640;"/>
+
+4. Login Screen
+
+<img src="/screenshots/Screenshot4.png" alt="Gameplay" style="width: 360; height: 640;"/>
+
+5. Login Screen
+
+<img src="/screenshots/Screenshot5.png" alt="Won/Lost screen" style="width: 360; height: 640;"/>
 
