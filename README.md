@@ -13,4 +13,5 @@ Instructions:
 
 Screenshots
 
-![Alt text](/screenshots/Screenshot1.png?raw=true =360x640 "Login Screen")
+<img src="/screenshots/Screenshot1" alt="Login Screen" style="width: 360px; height: 640px;"/>
+
