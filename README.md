@@ -16,19 +16,18 @@
 
 <img src="/screenshots/Screenshot1.png" alt="Login Screen" style="width: 360; height: 640;"/>
 
-2. Login Screen
+2. Online Players
+<img src="/screenshots/Screenshot2.png" alt="Online Players" style="width: 360; height: 640;"/>
 
-<img src="/screenshots/Screenshot2.png" alt="Lobby" style="width: 360; height: 640;"/>
+3. Waiting for opponent to join
 
-3. Login Screen
+<img src="/screenshots/Screenshot3.png" alt="Waiting for opponent to join" style="width: 360; height: 640;"/>
 
-<img src="/screenshots/Screenshot3.png" alt="Waiting for other player" style="width: 360; height: 640;"/>
-
-4. Login Screen
+4. Gameplay
 
 <img src="/screenshots/Screenshot4.png" alt="Gameplay" style="width: 360; height: 640;"/>
 
-5. Login Screen
+5. Result
 
-<img src="/screenshots/Screenshot5.png" alt="Won/Lost screen" style="width: 360; height: 640;"/>
+<img src="/screenshots/Screenshot5.png" alt="Result" style="width: 360; height: 640;"/>
 
